@@ -7,7 +7,13 @@
  */
 
 
+/**
+ * using hashing map to check if the next one is already in the list
+ * 
+ * @param  s [description]
+ * @return   [description]
+ */
 int lengthOfLongestSubstring(char *s)
 {
-	
+
 }
