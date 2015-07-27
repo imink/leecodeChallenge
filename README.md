@@ -1,10 +1,10 @@
-# leecodeChallenge
+# LeetCodeChallenge
 A repository records everyday's leetcode practice
 
 
 
 Reference:
-[Tgic Leetcode Solution](http://leetcode.tgic.me)
+[Tgic LeetCode Solution](http://leetcode.tgic.me)
 
 [ACM之家](http://www.acmerblog.com/data-structure-algorithm-6107.html)
 
