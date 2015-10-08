@@ -20,7 +20,7 @@
  * @param  target  [description]
  * @return         [description]
  */
-int* twoSum(int* nums, int numSize, int target)
+int* twoSum0(int* nums, int numSize, int target)
 {
 	if((numbers == NULL) | numSize < 2){
 		return NULL;
@@ -46,3 +46,19 @@ int* twoSum(int* nums, int numSize, int target)
 
 	return NULL;
 }
+
+
+int* twoSum1(int* nums. int numSize, int target) 
+{
+	
+}
+
+
+
+
+
+
+
+
+
+
