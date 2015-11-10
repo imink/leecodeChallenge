@@ -12,8 +12,9 @@ void quick_sort(int array[], int left, int right)
 		j = right;	
 		while (i < j) {
 			while(array[i] <= array[pivot] && i < right) i++;
-			while(array[j] > array[pivot]) j--;
-
+			while(array[j] > array[pivot] && j > left) j--;
+			// only condiiton satisfied can execute, or i = j, 
+			// jump out of while loop
 			if(i < j) {
 				temp = array[i];
 				array[i] = array[j];
@@ -26,8 +27,8 @@ void quick_sort(int array[], int left, int right)
 		array[pivot] = array[j];
 		array[j] = temp;
 
-		quick_sort(array, left, j - 1);
-		quick_sort(array, j + 1, right);
+		quick_sort(array, left, j - 1); // left half side
+		quick_sort(array, j + 1, right); // right half side
 
 
 	}
