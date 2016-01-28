@@ -1,3 +1,10 @@
+/**
+ * Bugs: 1. not malloc efficiently, root is not assigned with char, 
+ * carefully deal with each list next
+ */
+
+
+
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -15,29 +22,36 @@ int main ()
     // set up a new linked list
     stringList *root;
     root = (stringList *)malloc(sizeof (stringList));
+    root->next = NULL;
     // store the header of list
     stringList *temp = root; 
     // init with string
     while (string[i]) {
         // check if current is the end of list
-        while (root->next != NULL) {
-            root = root->next;
-        }
-
         stringList *nextNode = (stringList *)malloc(sizeof (stringList));
-        nextNode->c = string[i];
         root->next = nextNode;
-        i ++;       
-        printf("%c ", root->c);
-    }
-
-
-    root = temp;
-    while (root->next != NULL) {
-        printf("ok");
-        printf("%c ", root->c);
+        nextNode->c = string[i];
+        // void point to null 
+        // very critical step
+        nextNode->next = NULL;
         root = root->next;
+        i ++;  
+        printf("%d\n", i);     
     }
+    root = temp;
+    i = 0;
+    while (1) {
+        if (!root->next) {
+            break;
+        }
+        root = root->next;
+ 
+
+        printf("%c\n", root->c);
+        i ++;
+    }
+
+
 
     
 
