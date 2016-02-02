@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void merge_sort (int array[], int left, int right) 
-{ 
+void merge_sort (int array[], int left, int right)
+{
         int length = right - left + 1;
 	int m = left + length/2;
 	int temp = 0;
@@ -12,7 +12,7 @@ void merge_sort (int array[], int left, int right)
 			temp = array[right];
 			array[right] = array[left];
 			array[left] = temp;
-		}		
+		}
 
 	} else {
 
@@ -20,12 +20,12 @@ void merge_sort (int array[], int left, int right)
 		merge_sort(array, left, m-1);
 		merge_sort(array, m, right);
 	}
-	
+
 	printf("\n m is %d, left is %d, right is %d", m, left, right);
 
 
 
-} 
+}
 
 int main (int argc, char *argv[]) {
 	int i = 0;

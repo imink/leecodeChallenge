@@ -10,56 +10,77 @@ Write the code that will take a string and make this conversion given a number o
 string convert(string text, int nRows);
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 */
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 char* zigzag_convertion(char *str, int rows)
 {
-    int i, j, m;
-    int loop_rount, loop_char_num;
+    int i, j, m, n;
+    int loop_count, loop_char_num, loop_num;
     int length, remainder, column;
-    char *table;
-    length = sizeof(str);
+    char **table, *output;
+    n = 0;
+    length = strlen(str);
     loop_count = 1 + rows - 2;
     loop_char_num = rows + rows - 2;
-    m = sizeof(str) / loop_char_num; 
+    m = length / loop_char_num;
 
     remainder = length % loop_char_num;
-
-    if (remainder <= rows) {
-        column = m * loop_char_num + 1;
-    } else {
-        column = m * loop_char_num + remainder - rows;
+    column = ( m + 1 ) * loop_count;
+    printf("%d\n", column);
+    if ((table = malloc(sizeof(char*) * column)) == NULL ) {
     }
-
-    if ((table = malloc(sizeof(char) * column)) == NULL ) {
-       
-    } 
 
     for ( i = 0; i < column; i ++) {
         if ((table[i] = malloc( sizeof(char) * rows)) == NULL) {
         }
+        for ( j = 0; j < rows; j ++ ) {
+            table[i][j] = '@';
+        }
     }
-    
+
     for ( i = 0; i < column; i ++) {
         if (i < loop_count) {
-                loop_num = i;
+            loop_num = i;
         } else {
-                loop_num = i % loop_count;
+            loop_num = i % loop_count;
         }
 
         if (loop_num == 0) {
             for ( j = rows - 1; j >= 0; j --) {
-                table[i][j] = str[n];
+               if (!str[n]) {
+                    break;
+                }
+            table[i][j] = str[n];
                 n ++;
+
             }
         } else {
             table[i][loop_num] = str[n];
             n ++;
         }
-        
-        
+        if (!str[n]) {
+            break;
+        }
+
 
     }
 
-    
+    for ( i = rows; i >= 0; i --) {
+        for ( j = 0; j < column; j ++) {
+            printf("%c\n", table[j][i] );
+        }
+    }
 
+
+    return output;
+}
+
+
+
+int main(int args, char **argv)
+{
+    char str[10] = "SUCCESSFUL";
+    zigzag_convertion(str, 3);
+    return 0;
 }

@@ -11,3 +11,5 @@ Reference:
 [Coolshell Leetcode Practice](http://coolshell.cn/articles/12052.html)
 
 [LeetCode Online Port for IT Interview](http://articles.leetcode.com/2011/05/longest-substring-without-repeating-characters.html)
+
+[tsungmingliu's Gitbook](https://tsungmingliu.gitbooks.io/lets-leetcode/content/10_regular_expression_matching/index.html)
