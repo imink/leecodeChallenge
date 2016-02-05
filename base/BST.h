@@ -7,6 +7,7 @@ typedef struct TreeNode SearchTree;
 
 *SearchTree insert(SearchTree *t, int key);
 
+
 struct TreeNode
 {
     int key;
