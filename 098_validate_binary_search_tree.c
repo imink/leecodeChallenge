@@ -19,39 +19,39 @@
 #include "base/BST.h"
 
 
-bool checkValid(struct TreeNode *node, bool left, bool right, int lastLeft, int lastRight) 
+bool checkValid(struct TreeNode *node, bool left, bool right, int lastLeft, int lastRight)
 {
     if (!node) {
         return 1;
     }
-    
+
     int val = node->val;
-    
+
     if (( left || val > lastLeft) && (right || val < lastRight)) {
         // if (node->left != NULL) {
         //     return checkValid(node->left, lastLeft, val);
-        // } 
+        // }
         // if (node->right != NULL) {
         //     return checkValid(node->right, val, lastRight);
-        // } 
+        // }
         // if (node->right == NULL && node->left == NULL) {
         //     return 1;
         // }
         // still get confused with this line, what exact return condition1 && condition 2 mean?
         return checkValid(node->left, left, true, lastLeft, val) && checkValid(node->right, true, right, val, lastRight);
-        
+
     } else {
         return 0;
     }
-    
-} 
- 
- 
+
+}
+
+
 bool isValidBST(struct TreeNode* root) {
     return checkValid(root, false, false, 0, 0);
 }
 
- 
+
 int main(int args, char **argv)
 {
 
