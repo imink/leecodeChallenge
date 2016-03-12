@@ -3,7 +3,7 @@
 
 void merge_sort (int array[], int left, int right)
 {
-        int length = right - left + 1;
+    int length = right - left + 1;
 	int m = left + length/2;
 	int temp = 0;
 	if(length <= 2) {
@@ -32,7 +32,7 @@ int main (int argc, char *argv[]) {
 	int array[7] = {3,2,4,1,6,9,7};
 
 	merge_sort(array, 0, 6);
-	printf("sorted array is:");
+	printf("\nsorted array is:");
 	for (i = 0; i < 7; i ++) {
 		printf(" %d", array[i]);
 	}

@@ -6,23 +6,22 @@
  * };
  */
  
-struct ListNode* copyList(struct ListNode* list) 
+void appendList(struct ListNode* oldList,struct ListNode* newList) 
 {
-    struct ListNode *newList;
-    struct ListNode *head;
+
     struct ListNode *tempList;
-    head = newList;
-    while (list) {
+    while (newList) {
         tempList = malloc(sizeof(struct ListNode));
-        tempList->val = list->val;
-        //printf("%d\n", list->val);
-        newList->next = tempList;
+        tempList->val = newList->val;
+        //printf("%d\n", newList->val);
+        oldList->next = tempList;
+        oldList = oldList->next;
         newList = newList->next;
-        list = list->next;
     }
     //printf("%d\n", head->next->val);
-    return newList;
 }
+
+
  
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {
     struct ListNode *head, *mergedList;
@@ -38,19 +37,18 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {
 
     head = mergedList;
     while (l1 || l2) {
-        listNode = malloc(sizeof(struct ListNode));
-        
         
         // append rest of list to the new list
         if (!l1) {
-            mergedList->next = l2;
+            appendList(mergedList, l2);
             break;
         } 
         if (!l2) {
-            mergedList->next= l1;
+            appendList(mergedList, l1);
             break;
         }
         
+        listNode = malloc(sizeof(struct ListNode));
         
         if (l1->val <= l2->val) {
             listNode->val = l1->val;
@@ -60,7 +58,7 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {
 
             l2 = l2->next;
         }
-       
+        //printf("sort: %d\n", listNode->val);
         mergedList->next = listNode;
         mergedList = mergedList->next;
     }
