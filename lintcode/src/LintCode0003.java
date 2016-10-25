@@ -31,10 +31,11 @@ public class LintCode0003 {
 
     void addNumber(int number) {
         maxHeap.add(number);
-        // if is even
+        // if is even, i.e. input length is odd
         if (index % 2 == 0) {
             if (minHeap.isEmpty()) {
                 index ++;
+                // TODO: 23/10/2016 return meaning?
                 return;
             } else if (maxHeap.peek() > minHeap.peek()) {
                 // TODO: 23/10/2016 why Integer not int
@@ -43,8 +44,9 @@ public class LintCode0003 {
                 minHeap.add(maxHeapRoot);
                 maxHeap.add(minHeapRoot);
             }
+            // else that: new number is smaller than minHeap, so add it to the maxHeap
         }
-        // if is odd
+        // if is odd, input length is even
         else {
             minHeap.add(maxHeap.poll());
         }
