@@ -19,10 +19,10 @@ public class LintCode123 {
         for (int i = 0; i < board.length; i ++) {
             for (int j = 0; j < board[i].length; j ++) {
                 if (board[i][j] == word.charAt(0) && word.length() > 1) {
+
                     for (int k = 0; k < 4; k ++) {
-                        if (!gridSearch(board, i + dx[i], j + dy[j], word, index, i, j)) {
-                            break;
-                        } else {
+
+                        if (gridSearch(board, i + dx[k], j + dy[k], word, index, i, j)) {
                             return true;
                         }
                     }
@@ -34,24 +34,47 @@ public class LintCode123 {
             }
         }
 
-        return true;
+        return false;
     }
 
     public boolean gridSearch(char[][] board, int x, int y, String word, int index, int lastX, int lastY) {
 
+        if (x >= 0 && x < board.length && y >=0 && y < board[x].length) {
+            if (board[x][y] == word.charAt(index)) {
 
-        if (board[x][y] == word.charAt(index)) {
-            if (index == word.length() - 1) {
-                return true;
-            }
-            for (int i = 0; i < 4; i ++) {
-                if (!(x + dx[i] == lastX && y + dy[i] == lastY)) {
-                    gridSearch(board, x + dx[i], y + dy[i], word, index + 1, x, y);
+                if (index == word.length() - 1) {
+                    return true;
                 }
+                for (int i = 0; i < 4; i ++) {
+                    System.out.println(lastX + " " + lastY);
+
+                    if (!(x + dx[i] == lastX && y + dy[i] == lastY)) {
+                        if (gridSearch(board, x + dx[i], y + dy[i], word, index + 1, x, y)) {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            } else {
+                return false;
             }
-            return false;
         } else {
             return false;
         }
+
     }
+
+    public static void main(String[] args) {
+        LintCode123 obj = new LintCode123();
+        char[][] board = {{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
+        String word = "ABCB";
+
+        if (obj.exist(board, word)) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+
+    }
+
 }
