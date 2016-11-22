@@ -46,7 +46,7 @@ public class LintCode123 {
                     return true;
                 }
                 for (int i = 0; i < 4; i ++) {
-                    System.out.println(lastX + " " + lastY);
+                    //System.out.println(lastX + " " + lastY);
 
                     if (!(x + dx[i] == lastX && y + dy[i] == lastY)) {
                         if (gridSearch(board, x + dx[i], y + dy[i], word, index + 1, x, y)) {
@@ -63,18 +63,4 @@ public class LintCode123 {
         }
 
     }
-
-    public static void main(String[] args) {
-        LintCode123 obj = new LintCode123();
-        char[][] board = {{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
-        String word = "ABCB";
-
-        if (obj.exist(board, word)) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
-
-    }
-
 }
