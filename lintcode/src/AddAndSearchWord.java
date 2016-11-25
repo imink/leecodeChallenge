@@ -10,7 +10,7 @@ import java.util.Map;
  */
 
 
-public class LintCode473 {
+public class AddAndSearchWord {
 
     class TrieNode {
         HashMap<Character, TrieNode> childNode;
@@ -26,7 +26,7 @@ public class LintCode473 {
     // crt a global variable to make sure we can access root all the time
     private TrieNode root;
 
-    public LintCode473() {
+    public AddAndSearchWord() {
         root = new TrieNode();
     }
 
@@ -83,9 +83,11 @@ public class LintCode473 {
     }
 
      public static void main(String[] args) {
-         LintCode473 obj = new LintCode473();
+         AddAndSearchWord obj = new AddAndSearchWord();
          obj.addWord("a");
          System.out.println(obj.search("."));
      }
 
 }
+
+
