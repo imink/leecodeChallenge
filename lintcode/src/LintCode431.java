@@ -4,6 +4,12 @@ import java.util.*;
  * Created by imink on 01/11/2016.
  */
 public class LintCode431 {
+    class UndirectedGraphNode {
+             int label;
+             ArrayList<UndirectedGraphNode> neighbors;
+             UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
+    }
+
     class UnionFind {
         HashMap <Integer, Integer> root = new HashMap<Integer, Integer>();
 

@@ -7,14 +7,37 @@ public class QuickSort {
     public QuickSort() {
     }
 
-    public static void sort(int[] input, int l, int r) {
+    public static void recursiveSort(int[] input, int l, int r) {
         if (l < r) {
             int p = partitionLeft(input, l, r);
-//            System.out.println(input[p]);
-            sort(input, l, p - 1);
-            sort(input, p + 1, r);
+            recursiveSort(input, l, p - 1);
+            recursiveSort(input, p + 1, r);
         }
     }
+
+    public static void nonRecursiveSort(int[] input, int l, int r) {
+        int[] stack = new int[input.length];
+        int len = 0;
+        stack[len++] = l;
+        stack[len++] = r;
+
+        while (len > 0) {
+            // TODO: 25/11/2016
+            r = stack[--len];
+            l = stack[--len];
+            System.out.println(r);
+            int p = partitionLeft(input, l, r);
+            if (p + 1 < r) {
+                stack[len++] = p + 1;
+                stack[len++] = r;
+            }
+            if (p - 1 > l) {
+                stack[len++] = l;
+                stack[len++] = p - 1;
+            }
+        }
+    }
+
 
     // return the pivot index
     public static int partitionMid(int[] input, int l, int r) {
@@ -74,7 +97,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] input = {2,1,4,3,10,6,5,7};
-        QuickSort.sort(input, 0, input.length - 1);
+        QuickSort.nonRecursiveSort(input, 0, input.length - 1);
         System.out.println(Arrays.toString(input));
     }
 }
