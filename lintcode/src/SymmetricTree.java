@@ -48,6 +48,7 @@ public class SymmetricTree {
                 curQueue = nextQueue;
                 nextQueue = new LinkedList<>();
             }
+            int[] dp = new int[10];
 
             TreeNode first = curQueue.peekFirst();
             TreeNode last = curQueue.peekLast();
