@@ -1,9 +1,9 @@
 .out
 
-./otherProblems/a.out
+otherProblems/a.out
 
-./klib
+klib
 
-./lintcode/out/
-./lintcode/lintcode_jiuzhang.iml
-./lintcode/.idea/
+lintcode/out
+lintcode/lintcode_jiuzhang.iml
+lintcode/.idea
