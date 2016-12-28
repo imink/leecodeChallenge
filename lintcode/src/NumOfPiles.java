@@ -27,7 +27,7 @@ public class NumOfPiles {
 //            } else {
 //                return 0;
 //            }
-            if (o1.l > o2.l || o1.w > o2.w || o1.l > o2.w || o1.w > o2.l) {
+            if (o1.l > o2.l || o1.w > o2.w ) {
                 return -1;
             } else {
                 return 1;
@@ -39,10 +39,10 @@ public class NumOfPiles {
 //        Scanner scan = new Scanner(System.in);
 //        System.out.println("Enter String: ");
 //        String input = scan.next();
-        String input = "5,5;3,9;7,7;10,8;2,8";
+        String input = "5,5;3,9;7,7;10,8;12,2;3,3";
 //        String input = "3,3;4,4;6,6;5,5;9,8";
         String[] token = input.split(";");
-        PriorityQueue<Box> pq = new PriorityQueue<Box>(5, BoxPQ);
+        PriorityQueue<Box> pq = new PriorityQueue<Box>(6, BoxPQ);
         for (String item: token) {
             String[] temp = item.split(",");
             int len = Integer.parseInt(temp[0]);
