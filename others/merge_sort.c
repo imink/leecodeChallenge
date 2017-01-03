@@ -21,7 +21,7 @@ void merge_sort (int array[], int left, int right)
 		merge_sort(array, m, right);
 	}
 
-	printf("\n m is %d, left is %d, right is %d", m, left, right);
+//	printf("\n m is %d, left is %d, right is %d", m, left, right);
 
 
 

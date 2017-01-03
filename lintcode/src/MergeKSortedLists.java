@@ -2,9 +2,6 @@
  * https://leetcode.com/problems/merge-k-sorted-lists/
  * Created by imink on 13/12/2016.
  */
-import org.omg.PortableServer.LIFESPAN_POLICY_ID;
-
-import javax.management.ListenerNotFoundException;
 import java.util.*;
 
 public class MergeKSortedLists {
