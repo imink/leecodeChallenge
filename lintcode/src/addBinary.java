@@ -4,7 +4,7 @@
  */
 import java.util.*;
 public class addBinary {
-    public  String addBinary(String a, String b) {
+    private String addBinary(String a, String b) {
         if (a == null || a.length() == 0) return b;
         if (b == null || b.length() == 0) return a;
         String res = "";
