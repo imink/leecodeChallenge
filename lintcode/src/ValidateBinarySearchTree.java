@@ -13,34 +13,18 @@ public class ValidateBinarySearchTree {
 
     public boolean isValidBST(TreeNode root) {
         if (root == null) return true;
-        TreeNode node = null;
-        if (root.val > 0) {
-            node = new TreeNode(Integer.MIN_VALUE);
-            node.right = root;
-            return check(root, node, node.val, Integer.MAX_VALUE);
-        }
-        if (root.val <= 0) {
-            node = new TreeNode(Integer.MAX_VALUE);
-            node.left = root;
-            return check(root, node, Integer.MIN_VALUE, node.val);
-        }
-        return true;
+        if (root.left == null && root.right == null) return true;
+        return check(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public boolean check(TreeNode node, TreeNode lastN, int left, int right) {
+    // TODO: 10/02/2017 Why we dont need two scenarios?
+    public boolean check(TreeNode node, long left, long right) {
         if (node.val <= left || node.val >= right) return false;
 
-        if (lastN.left != null && lastN.left.val == node.val) {
-            if (node.right != null) return check(node.right, node, node.val, right);
-            if (node.left != null) return check(node.left, node, left, node.val);
-        }
-        if (lastN.right != null && lastN.right.val == node.val) {
-            if (node.left != null) return check(node.left, node, node.val, left);
-            if (node.right != null) return check(node.right, node, right, node.val);
-        }
+        if (node.right != null && node.left == null) return check(node.right, node.val, right);
+        if (node.left != null && node.right == null) return check(node.left, left, node.val);
+        if (node.right != null && node.right != null) return check(node.right, node.val, right) && check(node.left, left, node.val);
 
         return true;
     }
-
-
 }

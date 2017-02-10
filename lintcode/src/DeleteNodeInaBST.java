@@ -3,17 +3,8 @@
  * Created by imink on 06/02/2017.
  */
 
-
+import base.TreeNode;
 public class DeleteNodeInaBST {
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public void cutNode(TreeNode lastN, TreeNode curN, int left) {
         if (left == 2) {

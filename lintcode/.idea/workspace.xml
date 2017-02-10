@@ -23,60 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordBreak.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="46" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeKSortedLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MergeKSortedLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeTwoSortedLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MergeTwoSortedLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RangeSumQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RangeSumQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LongestSubstringWithoutRepeatingCharacters.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ValidPalindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ValidPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,12 +65,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidateBinarySearchTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ValidateBinarySearchTree.java">
+      <file leaf-file-name="SwapNodesInPairs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SwapNodesInPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="323">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyListwithRandomPointer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CopyListwithRandomPointer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumDepthofBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaximumDepthofBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteNodeInaBST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DeleteNodeInaBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumDepthofBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MinimumDepthofBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,12 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SearchinRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/SearchinRotatedSortedArrayII.java" />
-        <option value="$PROJECT_DIR$/src/Sqrt.java" />
-        <option value="$PROJECT_DIR$/src/SpiralMatrix.java" />
-        <option value="$PROJECT_DIR$/src/MinimumWindowSubstring.java" />
-        <option value="$PROJECT_DIR$/src/LengthofLastWord.java" />
         <option value="$PROJECT_DIR$/src/RotateList.java" />
         <option value="$PROJECT_DIR$/src/UniquePaths.java" />
         <option value="$PROJECT_DIR$/src/UniquePathsII.java" />
@@ -190,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/FourSum.java" />
         <option value="$PROJECT_DIR$/src/ImplementStrStr.java" />
         <option value="$PROJECT_DIR$/src/ValidPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/DeleteNodeInaBST.java" />
         <option value="$PROJECT_DIR$/src/TwoSumII.java" />
         <option value="$PROJECT_DIR$/src/WordBreak.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoSortedLists.java" />
@@ -198,6 +196,13 @@
         <option value="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/src/ValidateBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/SwapNodesInPairs.java" />
+        <option value="$PROJECT_DIR$/src/CopyListwithRandomPointer.java" />
+        <option value="$PROJECT_DIR$/src/base/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/DeleteNodeInaBST.java" />
+        <option value="$PROJECT_DIR$/src/MaximumDepthofBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/MinimumDepthofBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -214,7 +219,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="4" />
+    <option name="y" value="7" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -278,6 +284,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lintcode_jiuzhang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lintcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -289,7 +313,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="SearchEverywhereHistoryKey" value="long&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/LongestPalindromicSubstring.java&#10;reve&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ReverseWordsInAString.java&#10;strs&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ImplementStrStr.java&#10;vali&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ValidPalindrome.java&#10;merge&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/MergeKSortedLists.java&#10;addbi&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/addBinary.java&#10;permu&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/PermutationSequence.java&#10;sim&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/SimplifyPath.java&#10;numofpi&#9;RUN_CONFIGURATION&#9;NumOfPiles&#10;node&#9;PSI&#9;JAVA://LintCode465.Node&#10;comparat&#9;PSI&#9;JAVA://Pointer#PointerComparator" />
+    <property name="SearchEverywhereHistoryKey" value="dele&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/DeleteNodeInaBST.java&#10;long&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/LongestPalindromicSubstring.java&#10;reve&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ReverseWordsInAString.java&#10;strs&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ImplementStrStr.java&#10;vali&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ValidPalindrome.java&#10;merge&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/MergeKSortedLists.java&#10;addbi&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/addBinary.java&#10;permu&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/PermutationSequence.java&#10;sim&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/SimplifyPath.java&#10;numofpi&#9;RUN_CONFIGURATION&#9;NumOfPiles&#10;node&#9;PSI&#9;JAVA://LintCode465.Node&#10;comparat&#9;PSI&#9;JAVA://Pointer#PointerComparator" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -746,12 +770,12 @@
       <workItem from="1482357956283" duration="3680000" />
       <workItem from="1482850533127" duration="68103000" />
       <workItem from="1483977379543" duration="7824000" />
-      <workItem from="1486370066011" duration="32969000" />
+      <workItem from="1486370066011" duration="42838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304745000" />
+    <option name="totallyTimeSpent" value="314614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +787,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="4" y="7" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -876,7 +900,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -885,48 +909,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="2353" column="20" selection-start-line="2353" selection-start-column="20" selection-end-line="2353" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberOfAirplanesInTheSky.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LintCode0004.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="332" column="13" selection-start-line="332" selection-start-column="13" selection-end-line="332" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LintCode465.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NumOfPilesII.java" />
     <entry file="file://$PROJECT_DIR$/src/NumOfPiles.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1174,24 +1156,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeleteNodeInaBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="74" column="24" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
-          <folding>
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoSumII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#771#772#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1201,7 +1172,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1266,6 +1237,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValidateBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1274,11 +1253,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValidateBinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="195">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwapNodesInPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CopyListwithRandomPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeleteNodeInaBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaximumDepthofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinimumDepthofBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
