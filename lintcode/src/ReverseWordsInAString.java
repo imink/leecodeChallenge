@@ -23,8 +23,8 @@ public class ReverseWordsInAString {
     }
 
     public static void main(String[] args) {
-        System.out.print(reverseWords(" 1"));
-        System.out.print("XXXXX");
+        System.out.print(reverseWords("blue is sky the"));
+        System.out.print("XXXXXa");
     }
 
 }
