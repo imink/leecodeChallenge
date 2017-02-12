@@ -1,17 +1,9 @@
 /**
  * Created by imink on 05/01/2017.
  */
+import base.TreeNode;
 public class SumRootToLeafNumbers {
-    // TODO: 05/01/2017 tree construct method need to be implemented
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
     // TODO: 05/01/2017 setup a global var to store the sum is not a best practice
 //    public static int res = 0;
 //    public int sumNumbers(TreeNode root) {
