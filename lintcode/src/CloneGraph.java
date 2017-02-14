@@ -4,38 +4,25 @@ import java.util.*;
  * https://leetcode.com/problems/clone-graph/
  * Created by imink on 06/12/2016.
  */
-public class CloneGraph {
-    class UndirectedGraphNode {
-        int label;
-        List<UndirectedGraphNode> neighbors;
+import base.UndirectedGraphNode;
 
-        UndirectedGraphNode(int x) {
-            label = x;
-            neighbors = new ArrayList<UndirectedGraphNode>();
-        }
+public class CloneGraph {
+    private HashMap<Integer, UndirectedGraphNode> hashMap = new HashMap<>();
+    public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+        return clone(node);
     }
 
-    public class Solution {
-        public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
-            List<UndirectedGraphNode> curList = new ArrayList<>();
-            List<UndirectedGraphNode> nextList = new ArrayList<>();
+    private UndirectedGraphNode clone(UndirectedGraphNode node) {
+        if (node == null) return null;
 
-            while (true) {
-                int len = curList.size() - 1;
-                while (curList.size() > 0) {
-                    node = curList.get(len);
-                    curList.remove(len);
-                    len --;
-                    System.out.println(node.label);
-                    for (int i = 0; i < node.neighbors.size(); i ++) {
-                        nextList.add(node.neighbors.get(i));
-                    }
-                }
-                if (nextList.size() == 0) break;
-                curList.addAll(nextList);
-                nextList = new ArrayList<>();
-            }
-            return new UndirectedGraphNode(-1);
+        if (hashMap.containsKey(node.label)) {
+            return hashMap.get(node.label);
         }
+        UndirectedGraphNode newNode = new UndirectedGraphNode(node.label);
+        hashMap.put(newNode.label, newNode);
+        for (UndirectedGraphNode neighbor : node.neighbors) {
+            newNode.neighbors.add(clone(neighbor));
+        }
+        return newNode;
     }
 }
