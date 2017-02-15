@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-public class LintCode401 {
+public class KthSmallestElementInASortedMatrix {
 
     class Node{
         public int row;
@@ -67,7 +67,7 @@ public class LintCode401 {
     public static void main(String[] args) {
         int[][] array = {{1,5,7},{3,7,8},{4,8,9}};
         int target = 4;
-        LintCode401 obj = new LintCode401();
+        KthSmallestElementInASortedMatrix obj = new KthSmallestElementInASortedMatrix();
         System.out.println(obj.kthSmallest(array, target));
     }
 }

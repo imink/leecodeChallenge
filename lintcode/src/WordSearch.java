@@ -4,7 +4,7 @@
  * http://www.jiuzhang.com/solutions/word-search/
  * Created by imink on 27/10/2016.
  */
-public class LintCode123 {
+public class WordSearch {
 
     int[] dx = {1, -1, 0, 0};
     int[] dy = {0, 0, 1, -1};

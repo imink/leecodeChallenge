@@ -6,16 +6,16 @@
  * Created by imink on 20/12/2016.
  */
 import java.util.*;
-class Box {
-    int l;
-    int w;
-    Box(int len, int wid) {
-        this.l = len;
-        this.w = wid;
-    }
-}
 
 public class NumOfPiles {
+    public static class Box {
+        int l;
+        int w;
+        Box(int len, int wid) {
+            this.l = len;
+            this.w = wid;
+        }
+    }
 
     public static Comparator<Box> BoxPQ = new Comparator<Box>() {
         @Override

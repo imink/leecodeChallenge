@@ -4,7 +4,7 @@ import java.util.*;
  * Created by imink on 23/10/2016.
  * Code modified from http://wxx5433.github.io/building-outline.html
  */
-public class LintCode0002 {
+public class BuildingOutline {
     class Edge implements Comparable<Edge> {
         int height;
         int index;

@@ -1,8 +1,10 @@
 /**
+ * https://leetcode.com/problems/sliding-window-maximum/
+ * http://www.lintcode.com/en/problem/sliding-window-maximum/
  * Created by imink on 25/10/2016.
  */
 import java.util.*;
-public class LintCode0005 {
+public class MaxSlidingWindow {
     void inQueue(Deque<Integer> deque, int num) {
         // peak last is the last largest element that was inserted into the queue.
         while (!deque.isEmpty() && deque.peekLast() < num) {

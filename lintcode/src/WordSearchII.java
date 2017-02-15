@@ -4,7 +4,7 @@ import java.util.HashMap;
 /**
  * Created by imink on 26/10/2016.
  */
-public class LintCode132 {
+public class WordSearchII {
     class TrieNode {
         String s;
         boolean hasWord;

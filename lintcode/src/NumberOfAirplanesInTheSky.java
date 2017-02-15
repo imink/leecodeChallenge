@@ -1,5 +1,3 @@
-import java.awt.*;
-import java.nio.channels.Pipe;
 import java.util.*;
 import java.util.List;
 
@@ -12,36 +10,36 @@ import java.util.List;
  * Tags: sweep-line
  * Created by imink on 27/10/2016.
  */
-class Interval {
-    int start, end;
-    Interval(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-}
 
-class Pointer {
-    int time;
-    int flag;
-    Pointer(int t, int f) {
-        this.time = t;
-        this.flag = f;
-    }
-    public static Comparator<Pointer> PointerComparator = new Comparator<Pointer>() {
-        @Override
-        public int compare(Pointer o1, Pointer o2) {
-            if (o1.time == o2.time) {
-                return o1.flag - o2.flag;
-            } else {
-                return o1.time - o2.time;
-            }
-        }
-    };
-}
 
 public class NumberOfAirplanesInTheSky {
     //Definition of Interval:
+    class Interval {
+        int start, end;
+        Interval(int start, int end) {
+            this.start = start;
+            this.end = end;
+        }
+    }
 
+    static class Pointer {
+        int time;
+        int flag;
+        Pointer(int t, int f) {
+            this.time = t;
+            this.flag = f;
+        }
+        public static Comparator<Pointer> PointerComparator = new Comparator<Pointer>() {
+            @Override
+            public int compare(Pointer o1, Pointer o2) {
+                if (o1.time == o2.time) {
+                    return o1.flag - o2.flag;
+                } else {
+                    return o1.time - o2.time;
+                }
+            }
+        };
+    }
     /**
      * @param airplanes: An interval array
      * @return: Count of airplanes are in the sky.

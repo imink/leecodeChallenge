@@ -1,7 +1,8 @@
 /**
+ * https://leetcode.com/problems/trapping-rain-water/
  * Created by imink on 21/10/2016.
  */
-public class LintCode0000 {
+public class TrappingRainWater {
         /**
          * @param heights: an array of integers
          * @return: a integer
@@ -36,7 +37,7 @@ public class LintCode0000 {
     public static void main(String args[]) {
         int[] arrays = {100, 0, 100};
         int target = 3;
-        LintCode0000 obj = new LintCode0000();
+        TrappingRainWater obj = new TrappingRainWater();
         System.out.println(obj.trapRainWater(arrays));
     }
 

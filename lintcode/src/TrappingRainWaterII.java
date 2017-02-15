@@ -1,4 +1,5 @@
 /**
+ * https://leetcode.com/problems/trapping-rain-water-ii/
  * Created by imink on 22/10/2016.
  */
 import java.util.*;
@@ -6,7 +7,7 @@ import java.util.*;
 
 
 
-public class LintCode0001 {
+public class TrappingRainWaterII {
 
     class Cell {
         public int x, y, h;
@@ -96,7 +97,7 @@ public class LintCode0001 {
                 {13,8,10,12},
                 {12,13,12,12},
                 {13,13,13,13}};
-        LintCode0001 obj = new LintCode0001();
+        TrappingRainWaterII obj = new TrappingRainWaterII();
         System.out.println(obj.trapRainWater(array));
     }
 

@@ -4,23 +4,22 @@
 import java.util.*;
 
 
-class TrieNode {
-    char c;
-    HashMap<Character, TrieNode> children = new HashMap<Character, TrieNode>();
-    
-    boolean hasWord;
-
-    // TODO: 25/10/2016
-    public TrieNode() {
-        
-    }
-    
-    public TrieNode(char c) {
-        this.c = c;
-    }
-}
-
 public class Trie {
+    class TrieNode {
+        char c;
+        HashMap<Character, TrieNode> children = new HashMap<Character, TrieNode>();
+
+        boolean hasWord;
+
+        // TODO: 25/10/2016
+        public TrieNode() {
+
+        }
+
+        public TrieNode(char c) {
+            this.c = c;
+        }
+    }
     private TrieNode root;
 
     public Trie() {

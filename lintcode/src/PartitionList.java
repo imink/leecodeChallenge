@@ -2,19 +2,9 @@
  * https://leetcode.com/problems/partition-list/
  * Created by imink on 21/12/2016.
  */
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
+import base.ListNode;
 
 public class PartitionList {
-
-
 
     public static ListNode partition(ListNode head, int x) {
         ListNode start = head;
