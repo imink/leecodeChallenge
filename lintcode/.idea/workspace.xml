@@ -23,50 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LintCode0003.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LintCode0003.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordSearchII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WordSearchII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="82" column="41" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KthSmallestElementInASortedMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KthSmallestElementInASortedMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LintCode431.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LintCode431.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LintCode432.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LintCode432.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,15 +75,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberOfAirplanesInTheSky.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NumberOfAirplanesInTheSky.java">
+      <file leaf-file-name="GenerateParentheses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="405">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#313#321#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloneGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CloneGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1473#1482#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSlidingWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaxSlidingWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrappingRainWater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TrappingRainWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NextPermutation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NextPermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ReverseInteger.java" />
-        <option value="$PROJECT_DIR$/src/threeSum.java" />
         <option value="$PROJECT_DIR$/src/FourSum.java" />
         <option value="$PROJECT_DIR$/src/ImplementStrStr.java" />
         <option value="$PROJECT_DIR$/src/ValidPalindrome.java" />
@@ -194,13 +193,15 @@
         <option value="$PROJECT_DIR$/src/LintCode0001.java" />
         <option value="$PROJECT_DIR$/src/TrappingRainWaterII.java" />
         <option value="$PROJECT_DIR$/src/BuildingOutline.java" />
-        <option value="$PROJECT_DIR$/src/MaxSlidingWindow.java" />
         <option value="$PROJECT_DIR$/src/WordSearchII.java" />
         <option value="$PROJECT_DIR$/src/KthSmallestElementInASortedMatrix.java" />
         <option value="$PROJECT_DIR$/src/Trie.java" />
         <option value="$PROJECT_DIR$/src/NumOfPiles.java" />
         <option value="$PROJECT_DIR$/src/PartitionList.java" />
         <option value="$PROJECT_DIR$/src/NumberOfAirplanesInTheSky.java" />
+        <option value="$PROJECT_DIR$/src/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/MaxSlidingWindow.java" />
+        <option value="$PROJECT_DIR$/src/NextPermutation.java" />
       </list>
     </option>
   </component>
@@ -291,7 +292,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="SearchEverywhereHistoryKey" value="tra&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/TrappingRainWater.java&#10;sky&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/NumberOfAirplanesInTheSky.java&#10;maxi&#9;PSI&#9;JAVA://MaximumSubarray&#10;clone&#9;PSI&#9;JAVA://CloneGraph&#10;dele&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/DeleteNodeInaBST.java&#10;long&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/LongestPalindromicSubstring.java&#10;reve&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ReverseWordsInAString.java&#10;strs&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ImplementStrStr.java&#10;vali&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ValidPalindrome.java&#10;merge&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/MergeKSortedLists.java&#10;addbi&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/addBinary.java&#10;permu&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/PermutationSequence.java&#10;sim&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/SimplifyPath.java&#10;numofpi&#9;RUN_CONFIGURATION&#9;NumOfPiles&#10;node&#9;PSI&#9;JAVA://LintCode465.Node&#10;comparat&#9;PSI&#9;JAVA://Pointer#PointerComparator" />
+    <property name="SearchEverywhereHistoryKey" value="tra&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/TrappingRainWater.java&#10;sli&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/MaxSlidingWindow.java&#10;sky&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/NumberOfAirplanesInTheSky.java&#10;maxi&#9;PSI&#9;JAVA://MaximumSubarray&#10;clone&#9;PSI&#9;JAVA://CloneGraph&#10;dele&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/DeleteNodeInaBST.java&#10;long&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/LongestPalindromicSubstring.java&#10;reve&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ReverseWordsInAString.java&#10;strs&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ImplementStrStr.java&#10;vali&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/ValidPalindrome.java&#10;merge&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/MergeKSortedLists.java&#10;addbi&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/addBinary.java&#10;permu&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/PermutationSequence.java&#10;sim&#9;FILE&#9;file:///Users/imink/workspace/leetcodeChallenge/lintcode/src/SimplifyPath.java&#10;numofpi&#9;RUN_CONFIGURATION&#9;NumOfPiles&#10;node&#9;PSI&#9;JAVA://LintCode465.Node&#10;comparat&#9;PSI&#9;JAVA://Pointer#PointerComparator" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -773,12 +774,12 @@
       <workItem from="1482357956283" duration="3680000" />
       <workItem from="1482850533127" duration="68103000" />
       <workItem from="1483977379543" duration="7824000" />
-      <workItem from="1486370066011" duration="67062000" />
+      <workItem from="1486370066011" duration="73104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="338838000" />
+    <option name="totallyTimeSpent" value="344880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -912,32 +913,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MergeKSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MergeTwoSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RangeSumQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1153,18 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CloneGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1257,14 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TrappingRainWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TrappingRainWaterII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1280,16 +1235,6 @@
         <state relative-caret-position="540">
           <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxSlidingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1353,11 +1298,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CloneGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NumOfPiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumberOfAirplanesInTheSky.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1473#1482#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,14 +1337,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberOfAirplanesInTheSky.java">
+    <entry file="file://$PROJECT_DIR$/src/GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="405">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#1473#1482#0" expanded="true" />
+            <element signature="e#313#321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxSlidingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TrappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NextPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -10,6 +10,7 @@ public class MaxSlidingWindow {
         while (!deque.isEmpty() && deque.peekLast() < num) {
             deque.pollLast();
         }
+        // add to the tail
         deque.offer(num);
     }
 
