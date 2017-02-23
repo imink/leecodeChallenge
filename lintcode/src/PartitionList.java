@@ -7,58 +7,23 @@ import base.ListNode;
 public class PartitionList {
 
     public static ListNode partition(ListNode head, int x) {
-        ListNode start = head;
-        ListNode rs = null, re = null;
-        ListNode ls = null, le = null;
-        ListNode curNode;
-
-        ListNode temp = new ListNode(0);
-        temp.next = head;
-        while (temp.next != null) {
-            if (temp.next.val > x) {
-                break;
+        ListNode dummy1 = new ListNode(0), dummy2 = new ListNode(0);  //dummy heads of the 1st and 2nd queues
+        ListNode curr1 = dummy1, curr2 = dummy2;      //current tails of the two queues;
+        while (head!=null){
+            if (head.val<x) {
+                curr1.next = head;
+                curr1 = curr1.next;
+            }else {
+                curr2.next = head;
+                curr2 = head;
             }
-            temp = temp.next;
+            head = head.next;
         }
-
-        while (temp.next != null) {
-            if (temp.next.val <= x) {
-
-                curNode = temp;
-                ls = new ListNode(temp.val);
-                le = ls;
-                while (temp.next != null && temp.next.val <= x) {
-                    le.next = temp.next;
-                    le = le.next;
-                    temp = temp.next;
-                }
-                if (re != null) {
-//                    re.next = temp.next;
-//                    temp.next = rs.next;
-                }
-//                printList(start);
-                if (temp.next != null) curNode.next = temp.next;
-                printList(temp);
-                re = null;
-            } else {
-                curNode = temp;
-                re = new ListNode(temp.val);
-                rs = re;
-                while (temp.next != null && temp.next.val > x) {
-                    re.next = temp.next;
-                    re = re.next; // TODO: 21/12/2016 must need next;
-                    temp = temp.next;
-                }
-                if (le != null) {
-                    le.next = temp.next;
-                    temp.next = ls.next;
-                }
-                le = null;
-                if(temp.next != null) curNode.next = temp.next;
-            }
-        }
-        return start;
+        curr2.next = null;          //important! avoid cycle in linked list. otherwise u will get TLE.
+        curr1.next = dummy2.next;
+        return dummy1.next;
     }
+
 
     public static void printList (ListNode input) {
         ListNode res = input;
@@ -72,7 +37,7 @@ public class PartitionList {
 
     public static void main(String[] args) {
 //        int[] array = {1,3,7,8,2,5,2,4,6};
-        int[] array = {1,3,5,6,4,2};
+        int[] array = {1,4,3,2,5,2};
         ListNode input = new ListNode(0);
         ListNode head = input;
 
@@ -80,7 +45,7 @@ public class PartitionList {
             input.next = new ListNode(array[i]);
             input = input.next;
         }
-        ListNode res = partition(head.next, 4);
+        ListNode res = partition(head.next, 3);
         printList(res);
     }
 }

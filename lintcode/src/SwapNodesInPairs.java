@@ -2,12 +2,9 @@
  * https://leetcode.com/problems/swap-nodes-in-pairs/
  * Created by imink on 10/02/2017.
  */
+import base.ListNode;
 public class SwapNodesInPairs {
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
+
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) return head;
         if (head.next != null) {

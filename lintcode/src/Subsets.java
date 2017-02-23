@@ -2,7 +2,6 @@
  * https://leetcode.com/problems/subsets/
  * Created by imink on 21/12/2016.
  */
-import java.lang.reflect.Array;
 import java.util.*;
 public class Subsets {
     public static List<List<Integer>> subsets(int[] nums) {
