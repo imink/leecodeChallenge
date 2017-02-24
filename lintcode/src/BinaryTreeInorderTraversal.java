@@ -1,19 +1,18 @@
 /**
  * Created by imink on 19/02/2017.
  */
+import apple.laf.JRSUIUtils;
 import base.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class BinaryTreeInorderTraversal {
     // recursive way
-    List<Integer> res;
+    static List<Integer> res;
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) return new ArrayList<>();
         res = new ArrayList<>();
-        inOrder(root);
+        postOrder(root);
         return res;
     }
 
@@ -61,4 +60,40 @@ public class BinaryTreeInorderTraversal {
             res.add(node.val);
         }
     }
+
+    public TreeNode generateTree(int[] treeArray) {
+        int i = 0;
+        Queue<TreeNode> curHightQueue = new LinkedList<>();
+        TreeNode root = new TreeNode(treeArray[0]);
+        curHightQueue.add(root);
+        TreeNode curNode;
+
+        int size = treeArray.length;
+        while (!curHightQueue.isEmpty()) {
+            curNode = curHightQueue.poll();
+            if (2 * i + 1 > size - 1) break;
+            curNode.left = new TreeNode(treeArray[2 * i + 1]);
+            curHightQueue.add(curNode.left);
+            if (2 * i + 2 > size - 1) break;
+            curNode.right = new TreeNode(treeArray[2 * i + 2]);
+            curHightQueue.add(curNode.right);
+            i ++;
+        }
+        return root;
+    }
+
+    // construct a tree
+    public static void main(String[] args) {
+        // generate trees
+        int[] treeArray = new int[]{1,2,3,4,5,6};
+
+        BinaryTreeInorderTraversal obj = new BinaryTreeInorderTraversal();
+        TreeNode root = obj.generateTree(treeArray);
+        obj.inorderTraversal(root);
+        for (int j = 0; j < res.size(); j ++) {
+            System.out.println(res.get(j));
+        }
+
+    }
+
 }
