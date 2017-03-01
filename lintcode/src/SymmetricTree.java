@@ -2,19 +2,11 @@
  * https://leetcode.com/problems/symmetric-tree/
  * Created by imink on 06/12/2016.
  */
+import base.TreeNode;
+
 import java.util.*;
 
 public class SymmetricTree {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     // only check those exceptions.
     public boolean check (TreeNode leftNode, TreeNode rightNode) {
         if (leftNode == null && rightNode == null) return true; // end of the tree
@@ -30,67 +22,68 @@ public class SymmetricTree {
 
 
     // BFS way
-    public boolean iterative1 (TreeNode root) {
-        Deque<TreeNode> nextQueue  = new LinkedList<>();
-        Deque<TreeNode> curQueue  = new LinkedList<>();
+    public boolean isSymmetricIterative (TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
         if (root == null) return true;
-
-        curQueue.add(root);
-        while (!curQueue.isEmpty()) {
-            while (!curQueue.isEmpty()) {
-
-                TreeNode curNode = curQueue.poll();
-                nextQueue.add(curNode.left);
-                nextQueue.add(curNode.right);
-
-            }
-            if (!nextQueue.isEmpty()) {
-                curQueue = nextQueue;
-                nextQueue = new LinkedList<>();
-            }
-            int[] dp = new int[10];
-
-            TreeNode first = curQueue.peekFirst();
-            TreeNode last = curQueue.peekLast();
-            while (true) {
-                if ((first == null && last != null) || (last == null && first != null)) return false;
-                if (first != null && last != null) {
-                    if (first.val != last.val) {
-                        return false;
-                    }
-                }
-            }
+        if (root.right != null && root.left !=null) {
+            stack.add(root.left);
+            stack.add(root.right);
         }
+        if (root.right == null && root.left == null) return true;
+        if (root.right == null || root.left == null) return false;
+        while (stack.size() != 0) {
+            TreeNode right = stack.pop();
+            TreeNode left = stack.pop();
+            if (right == null && left == null) continue;
+            if (right == null && left != null) return false;
+            if (right != null && left == null) return false;
+            if (right.val != left.val) return false;
 
+            stack.add(right.right);
+            stack.add(left.left);
+            stack.add(right.left);
+            stack.add(left.right);
+            if (stack.size() % 2 != 0) return false;
+        }
         return true;
     }
 
     public boolean iterative2 (TreeNode root) {
-        if (root == null) return true;
-        Queue<TreeNode> leftQ = new LinkedList<>();
-        Queue<TreeNode> rightQ = new LinkedList<>();
+        if(root==null)  return true;
 
-        leftQ.offer(root.left);
-        rightQ.offer(root.right);
-        while (!(leftQ.isEmpty() && rightQ.isEmpty())) {
-            TreeNode leftNode = leftQ.poll();
-            TreeNode rightNode = rightQ.poll();
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        TreeNode left, right;
+        if(root.left!=null){
+            if(root.right==null) return false;
+            stack.push(root.left);
+            stack.push(root.right);
+        }
+        else if(root.right!=null){
+            return false;
+        }
 
-            if(leftNode == null && rightNode == null) continue;
+        while(!stack.empty()){
+            if(stack.size()%2!=0)   return false;
+            right = stack.pop();
+            left = stack.pop();
+            if(right.val!=left.val) return false;
 
-            if ((leftNode == null && rightNode != null) || (rightNode == null && leftNode != null)) return false;
-            if (leftNode != null && rightNode != null) {
-                if (leftNode.val != rightNode.val) return false;
+            if(left.left!=null){
+                if(right.right==null)   return false;
+                stack.push(left.left);
+                stack.push(right.right);
+            }
+            else if(right.right!=null){
+                return false;
             }
 
-
-            if (!(leftNode.left == null && rightNode.right == null)) {
-                leftQ.offer(leftNode.left);
-                rightQ.offer(rightNode.right);
+            if(left.right!=null){
+                if(right.left==null)   return false;
+                stack.push(left.right);
+                stack.push(right.left);
             }
-            if (!(leftNode.right == null && rightNode.left == null)) {
-                leftQ.offer(leftNode.right);
-                rightQ.offer(rightNode.left);
+            else if(right.left!=null){
+                return false;
             }
         }
 

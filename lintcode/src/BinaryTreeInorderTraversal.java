@@ -43,6 +43,7 @@ public class BinaryTreeInorderTraversal {
         }
     }
 
+
     // pre order 前序遍历 top->down, left->right
     public void preOrder(TreeNode node) {
         if (node !=null) {
@@ -52,6 +53,10 @@ public class BinaryTreeInorderTraversal {
         }
     }
 
+    public void preOrderItr(TreeNode node) {
+
+    }
+
     // post order 后序遍历 from root to top, from left to right
     public void postOrder(TreeNode node) {
         if (node != null) {
@@ -59,6 +64,10 @@ public class BinaryTreeInorderTraversal {
             postOrder(node.right);
             res.add(node.val);
         }
+    }
+
+    public void postOrderItr(TreeNode node) {
+
     }
 
     public TreeNode generateTree(int[] treeArray) {
