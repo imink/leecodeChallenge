@@ -6,41 +6,25 @@ import java.lang.reflect.Array;
 import java.util.*;
 public class Combinations {
     public static List<List<Integer>> combine(int n, int k) {
-        if (n <= 0 || k <= 0 || k > n) return new ArrayList<>();
-        List<List<Integer>> res = new ArrayList<>();
-        for (int i = 1; i <= k; i ++) {
-            res = dp(res, n, k);
-        }
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        combine(res, new ArrayList<Integer>(), 1, n, k);
         return res;
     }
 
-    public static List<List<Integer>> dp(List<List<Integer>> res, int n, int k) {
-        if (res.size() <= 0) {
-            for (int i = 1; i <= n; i ++) {
-                ArrayList<Integer> sub = new ArrayList<>();
-                sub.add(i);
-                res.add(sub);
-            }
-        } else {
-            for (ListIterator<List<Integer>> iterator = res.listIterator(); iterator.hasNext();) {
-                List<Integer> subList = iterator.next();
-//            if (subList.size() >= k) break;
-                int sp = subList.get(subList.size() - 1);
-                if (sp + 1 > n) {
-                    iterator.remove();
-                } else {
-                    iterator.remove();
-                    for (int i = sp + 1; i <= n; i ++) {
-                        List<Integer> temp = new ArrayList<Integer>(subList);
-                        temp.add(i);
-                        iterator.add(temp);
-                    }
-                }
-            }
+    public static void combine(List<List<Integer>> res, List<Integer> comb, int start, int n, int k) {
+        // no num left
+        if (k == 0) {
+            res.add(new ArrayList<Integer>(comb));
+            return;
         }
 
-        return res;
+        for (int i = start; i <= n; i ++) {
+            comb.add(i); // increase add the num
+            combine(res, comb, i + 1, n, k - 1); // DFS to its deepest
+            comb.remove(comb.size() - 1); // remove the last added num
+        }
     }
+
 
     public static void printList(List<List<Integer>> list) {
         for (List<Integer> subList: list) {

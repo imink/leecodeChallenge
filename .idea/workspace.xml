@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38315eb3-17cb-43c6-8dfe-e2c7811e82f1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lintcode/out/production/lintcode_jiuzhang/SymmetricTree$TreeNode.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/out/production/lintcode_jiuzhang/SymmetricTree.class" afterPath="$PROJECT_DIR$/lintcode/out/production/lintcode_jiuzhang/SymmetricTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/lintcode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/BalancedBinaryTree.java" afterPath="$PROJECT_DIR$/lintcode/src/BalancedBinaryTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/BinaryTreeInorderTraversal.java" afterPath="$PROJECT_DIR$/lintcode/src/BinaryTreeInorderTraversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/DeleteNodeInaBST.java" afterPath="$PROJECT_DIR$/lintcode/src/DeleteNodeInaBST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/MaximumDepthofBinaryTree.java" afterPath="$PROJECT_DIR$/lintcode/src/MaximumDepthofBinaryTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/ReverseLinkedListII.java" afterPath="$PROJECT_DIR$/lintcode/src/ReverseLinkedListII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/SumRootToLeafNumbers.java" afterPath="$PROJECT_DIR$/lintcode/src/SumRootToLeafNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/SwapNodesInPairs.java" afterPath="$PROJECT_DIR$/lintcode/src/SwapNodesInPairs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/SymmetricTree.java" afterPath="$PROJECT_DIR$/lintcode/src/SymmetricTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/Combinations.java" afterPath="$PROJECT_DIR$/lintcode/src/Combinations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/LargestRectangleinHistogram.java" afterPath="$PROJECT_DIR$/lintcode/src/LargestRectangleinHistogram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/MaximalRectangle.java" afterPath="$PROJECT_DIR$/lintcode/src/MaximalRectangle.java" />
     </list>
     <ignored path="leetcodeChallenge.iws" />
     <ignored path=".idea/workspace.xml" />

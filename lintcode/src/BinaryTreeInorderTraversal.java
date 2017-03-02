@@ -12,7 +12,7 @@ public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) return new ArrayList<>();
         res = new ArrayList<>();
-        postOrder(root);
+        postOrderItrII(root);
         return res;
     }
 
@@ -29,13 +29,14 @@ public class BinaryTreeInorderTraversal {
     public void inOrderItr(TreeNode node) {
         Stack<TreeNode> stack = new Stack<>();
         while (!stack.isEmpty() || node != null) {
-            // push to stack top -> down
+            // push to stack top -> down, to the bottom
             while (node != null) {
                 stack.push(node);
                 node = node.left;
             }
             // read node down -> top
             if (!stack.isEmpty()) {
+                // the bottom left one
                 TreeNode curNode = stack.pop();
                 res.add(curNode.val);
                 node = curNode.right;
@@ -54,8 +55,22 @@ public class BinaryTreeInorderTraversal {
     }
 
     public void preOrderItr(TreeNode node) {
+        Stack<TreeNode> stack = new Stack<>();
+        while (!stack.isEmpty() || node != null) {
+            while (node != null) {
+                stack.push(node);
+                res.add(node.val);
+                node = node.left;
+            }
+            if (!stack.isEmpty()) {
+                TreeNode curNode = stack.pop();
+                node = curNode.right;
+            }
 
+        }
     }
+
+
 
     // post order 后序遍历 from root to top, from left to right
     public void postOrder(TreeNode node) {
@@ -67,7 +82,49 @@ public class BinaryTreeInorderTraversal {
     }
 
     public void postOrderItr(TreeNode node) {
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.push(node);
 
+        while(!stack.isEmpty()) {
+            TreeNode temp = stack.peek();
+            if(temp.left==null && temp.right==null) {
+                TreeNode pop = stack.pop();
+                res.add(pop.val);
+            }
+            else {
+                if(temp.right!=null) {
+                    stack.push(temp.right);
+                    temp.right = null;
+                }
+
+                if(temp.left!=null) {
+                    stack.push(temp.left);
+                    temp.left = null;
+                }
+            }
+        }
+
+    }
+
+    public void postOrderItrII(TreeNode node) {
+        Stack<TreeNode> stack = new Stack<>();
+
+        while (!stack.isEmpty() || node != null) {
+            while (node != null) {
+                stack.push(node);
+                node = node.left;
+            }
+
+            if (!stack.isEmpty()) {
+                TreeNode curNode = stack.peek();
+                if (curNode.right != null) {
+                    node = curNode.right;
+                    curNode.right = null; // marked as visited
+                } else {
+                    res.add(stack.pop().val);
+                }
+            }
+        }
     }
 
     public TreeNode generateTree(int[] treeArray) {

@@ -10,15 +10,18 @@ public class LargestRectangleinHistogram {
         Stack<Integer> S = new Stack<>();
         for (int i = 0; i < len + 1; i ++) {
             int cur = i == len ? -1 : heights[i]; // handle the height[len]
-            // TODO: 03/01/2017 cur <= heights[S.peek()]
             while (!S.empty() && cur <= heights[S.peek()]) {
+                // remove the top one
                 int top = S.pop();
+                // calculate the previous rec
                 if (S.empty()) {
                     res = Math.max(res, heights[top] * i);
                 } else {
+                    // peek is now the latest top
                     res = Math.max(res, heights[top] * (i - S.peek() - 1));
                 }
             }
+            // push the current one
             S.push(i);
         }
         return res;
