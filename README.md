@@ -1,6 +1,8 @@
 # LeetCodeChallenge
 A repository records everyday's leetcode practice
 
+I record every problem in the following sheet. 
+[Google Sheet Tracking](https://docs.google.com/spreadsheets/d/1wvlJqRq7UVGU9jLWAJGikdlXOmfMyJYyLw77LPZw0fg/edit?usp=sharing) 
 
 
 Reference:
