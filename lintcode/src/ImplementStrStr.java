@@ -1,8 +1,11 @@
 /**
  * https://leetcode.com/problems/implement-strstr/
  * Created by imink on 09/01/2017.
+ *
  */
 public class ImplementStrStr {
+
+    // brute force O(m*n)
     public static int strStr(String haystack, String needle) {
         if (needle == null || haystack == null) return -1;
         if (needle.isEmpty()) return 0;
@@ -21,7 +24,7 @@ public class ImplementStrStr {
                     k ++;
                     j ++;
                 }
-                if (j == needle.length()) return start;
+                if (j == needle.length()) return start; // found
             }
         }
         return -1;
@@ -33,7 +36,7 @@ public class ImplementStrStr {
         }
 
         for (int i = 0; i < source.length() - target.length() + 1; i++) {
-            int j = 0;
+            int j = 0; // reset
             for (j = 0; j < target.length(); j++) {
                 if (source.charAt(i + j) != target.charAt(j)) {
                     break;
@@ -48,6 +51,6 @@ public class ImplementStrStr {
     }
 
     public static void main(String[] args) {
-        System.out.println(strStr("mississippi", "sippj"));
+        System.out.println(strStr("mississippi", "issip"));
     }
 }

@@ -3,16 +3,14 @@
  */
 import base.Interval;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+
 public class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
         if (intervals == null || intervals.size() < 1) {
             return intervals;
         }
-        // ascending
+        // ascending by start point
         Collections.sort(intervals, new Comparator<Interval>() {
             @Override
             public int compare(Interval o1, Interval o2) {
@@ -24,6 +22,7 @@ public class MergeIntervals {
         int s = intervals.get(0).start;
         int e = intervals.get(0).end;
         for (Interval item: intervals) {
+            // only compare with the last node
             if (item.start <= e) {
                 e = Math.max(item.end, e);
             } else {

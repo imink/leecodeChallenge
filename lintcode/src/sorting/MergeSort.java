@@ -18,6 +18,7 @@ public class MergeSort {
         merge(start, mid, end);
     }
 
+    // merge two sorted array
     public void merge(int start, int mid, int end) {
         int left = start;
 //        int right = mid + 1;
@@ -28,7 +29,7 @@ public class MergeSort {
                 for (int i = mid; i >= left; i--) {
                     array[i + 1] = array[i];
                 }
-                // swap
+                // push to the most left
                 array[left] = temp;
                 mid ++;
             } else {

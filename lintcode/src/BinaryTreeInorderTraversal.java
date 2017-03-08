@@ -127,6 +127,29 @@ public class BinaryTreeInorderTraversal {
         }
     }
 
+    // get nodes number in a tree levelOrderTraversal
+    public int getNodesNumRecur(TreeNode node) {
+        if (node == null) return 0;
+        return getNodesNumRecur(node.left) + getNodesNumRecur(node.right) + 1;
+    }
+
+    public int getNodesNumItr(TreeNode node) {
+        if (node == null) return 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(node);
+        int counter  = 0;
+        while (!queue.isEmpty()) {
+            TreeNode curNode = queue.poll();
+            if (curNode.left != null) queue.offer(curNode.left);
+            if (curNode.right != null) queue.offer(curNode.right);
+            counter ++;
+        }
+        return counter;
+    }
+
+
+
+
     public TreeNode generateTree(int[] treeArray) {
         int i = 0;
         Queue<TreeNode> curHightQueue = new LinkedList<>();

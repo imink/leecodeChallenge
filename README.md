@@ -6,6 +6,7 @@ I record every problem in the following sheet.
 
 
 Reference:
+[LeetCode 分类总结](http://www.danielbit.com/blog/puzzle/leetcode/leetcode-summary)
 [Tgic LeetCode Solution](http://leetcode.tgic.me)
 
 [ACM之家](http://www.acmerblog.com/data-structure-algorithm-6107.html)

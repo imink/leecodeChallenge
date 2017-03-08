@@ -2,67 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38315eb3-17cb-43c6-8dfe-e2c7811e82f1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/base/BST.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/base/BST.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/base/hashTable.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/001_two_sum.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/002_add_two_numbers.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/003_longest_substring_without_repeating_characters.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/004_median_of_two_sorted_array.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/005_longest_palindromic_substring.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/006_zigzag_conversion.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/007_reverse_integer.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/008_string_to_int_atoi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/009_palindrome_number.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/010_regular_expression_match.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/011_container_with_most_water.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/012_integer_to_roman.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/014_longest_common_prefix.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/015_3_sum.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/016_3_sum_closest.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/017_letter_combination_of_a_phone_number.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/019_remove_nth_node_from_end_of_list.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/020_valid_parenthese.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/021_merge_two_sorted_lists.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/022_generate_parentheses.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/023_merg_k_sorted_lists.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/024_swap_nodes_in_pairs.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/025_reverse_nodes_in_k_group.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/026_remove_duplicates_from_sorted_array.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/027_remove_element.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/030_substring_with_concatenation_of_all_words.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/c_version/098_validate_binary_search_tree.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/klib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/a.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/binary_search.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/bubble_sort.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/common_sorting_algorithm.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/data_structures/linked_list.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/data_structures/stack.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/heap_sort.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/insert_sort.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/basic.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/out/production/basic/BubbleSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/out/production/basic/InsertSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/out/production/basic/QuickSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/out/production/basic/ShellSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/src/BubbleSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/src/InsertSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/src/QuickSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/java/src/ShellSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/merge_sort.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/merge_sort_1.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/quick_sort.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/others/str_str.c" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/out/production/lintcode_jiuzhang/MinimumWindowSubstring.class" afterPath="$PROJECT_DIR$/lintcode/out/production/lintcode_jiuzhang/MinimumWindowSubstring.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/lintcode/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/BinaryTreeInorderTraversal.java" afterPath="$PROJECT_DIR$/lintcode/src/BinaryTreeInorderTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/CopyListwithRandomPointer.java" afterPath="$PROJECT_DIR$/lintcode/src/CopyListwithRandomPointer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/ImplementStrStr.java" afterPath="$PROJECT_DIR$/lintcode/src/ImplementStrStr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/LongestSubstringWithoutRepeatingCharacters.java" afterPath="$PROJECT_DIR$/lintcode/src/LongestSubstringWithoutRepeatingCharacters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/MergeIntervals.java" afterPath="$PROJECT_DIR$/lintcode/src/MergeIntervals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/MinimumWindowSubstring.java" afterPath="$PROJECT_DIR$/lintcode/src/MinimumWindowSubstring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/SortColors.java" afterPath="$PROJECT_DIR$/lintcode/src/SortColors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/base/ListNode.java" afterPath="$PROJECT_DIR$/lintcode/src/base/ListNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/InsertSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/InsertSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/MergeSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/MergeSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/QuickSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/QuickSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/SelectionSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/SelectionSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/Test.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/Test.java" />
     </list>
     <ignored path="leetcodeChallenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,7 +63,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
+    <option name="x" value="80" />
+    <option name="width" value="1360" />
     <option name="height" value="896" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -581,15 +539,15 @@
       <option name="presentableId" value="Default" />
       <updated>1482944656508</updated>
       <workItem from="1482944657788" duration="627000" />
-      <workItem from="1488294302861" duration="3044000" />
+      <workItem from="1488294302861" duration="4340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3671000" />
+    <option name="totallyTimeSpent" value="4967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="896" extended-state="6" />
+    <frame x="80" y="0" width="1360" height="896" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -602,7 +560,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26479515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

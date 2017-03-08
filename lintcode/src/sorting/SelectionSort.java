@@ -4,6 +4,7 @@ package sorting;
  * Created by imink on 01/03/2017.
  */
 public class SelectionSort {
+    // 直接和右边最小值调换
     public SelectionSort(int[] array) {
         int i, j, min, temp;
         for (i = 0; i < array.length; i ++) {

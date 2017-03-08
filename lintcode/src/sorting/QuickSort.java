@@ -1,5 +1,7 @@
 package sorting;
 
+import java.util.Stack;
+
 /**
  * Created by imink on 28/02/2017.
  */
@@ -12,17 +14,55 @@ public class QuickSort {
         int pivot = array[end];
         int left = start, right = end - 1;
         while (left < right) {
-            while (array[left] <= pivot && left < right) left ++;
-            while (array[right] >= pivot && left < right) right --;
+            while (array[left] <= pivot && left < right) left++;
+            while (array[right] >= pivot && left < right) right--;
             swap(left, right);
         }
-        if (array[left] >= array[end]) {
+        if (array[left] >= pivot) {
             swap(left, end);
         } else {
             left ++;
         }
+        // now array[left] is the pivot
         quickSort(start, left - 1);
         quickSort(left + 1, end);
+    }
+
+    public int partition(int start, int end) {
+        int pivot = array[end];
+        int left = start;
+        int right = end;
+        while (left < right) {
+            while (array[left] <= pivot && left < right) left++;
+            array[right] = array[left];
+            while (array[right] >= pivot && left < right) right--;
+            array[left] = array[right];
+        }
+        array[left] = pivot;
+        return left;
+    }
+
+
+    public void quikSortItr() {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0);
+        stack.push(array.length - 1);
+
+        int left, right, pivot;
+        while (!stack.isEmpty()) {
+            right = stack.pop();
+            left = stack.pop();
+            pivot = partition(left, right);
+
+            if (left < pivot - 1) {
+                stack.push(left);
+                stack.push(pivot - 1);
+            }
+            if (right > pivot + 1) {
+                stack.push(pivot + 1);
+                stack.push(right);
+            }
+        }
     }
 
     private void swap(int x, int y) {
@@ -31,7 +71,4 @@ public class QuickSort {
         array[y] = temp;
     }
 
-    public int[] quickSortItr(int[] array) {
-        return array;
-    }
 }

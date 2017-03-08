@@ -7,6 +7,8 @@ public class SortColors {
         if (nums == null || nums.length <= 1) return; // TODO: 28/12/2016 edge case handle
         int s = 0, e = nums.length - 1;
 
+        
+
     }
 
     public static void main(String[] args) {

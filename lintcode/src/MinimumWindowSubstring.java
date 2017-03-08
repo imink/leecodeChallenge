@@ -14,19 +14,23 @@ public class MinimumWindowSubstring {
         int[] targetArray = new int[256];
         int sourceLength = 0;
         int max = Integer.MAX_VALUE;
-        // TODO: 15/12/2016 what if we use hashtable, how to make it simple
         for (int i = 0; i < targetLength; i ++) {
             targetArray[t.charAt(i)] ++;
         }
+        /**
+         * i, j are two pointers, first use i to extends its right edge,
+         * then use j to shrink to right, cut those unnecessary ones.
+         * the most tricky part is record the existence of each letter.
+         */
         int j = 0;
 
         for (int i = 0; i < s.length(); i ++) {
             if (targetArray[s.charAt(i)] > 0) {
                 sourceLength ++;
             }
-            // mark as read
+            // mark as read for all letters
             targetArray[s.charAt(i)] --;
-            // loop to find the left mark
+            // loop to find the left mark, the found subString is greater or equal than current one.
             while (sourceLength >= targetLength) {
                 int curLen = i - j + 1;
                 // get current min
@@ -34,7 +38,7 @@ public class MinimumWindowSubstring {
                     res = s.substring(j, i+1);
                     max = curLen;
                 }
-                // TODO: 15/12/2016 IMPORTANT HERE
+                // the unnecessary letter has no effect, so we can move j to right.
                 targetArray[s.charAt(j)] ++;
                 if (targetArray[s.charAt(j)] > 0) {
                     sourceLength --;

@@ -13,7 +13,10 @@ public class Test {
         quickSort.array = input;
         MergeSort ms = new MergeSort(input);
         ms.divide(0, input.length - 1);
+        InsertSort is = new InsertSort();
 //        quickSort.quickSort(0, quickSort.array.length - 1);
-        System.out.println(Arrays.toString(ms.array));
+        quickSort.quikSortItr();
+        ShellSort ss = new ShellSort();
+        System.out.println(Arrays.toString(ss.ShellSort(input)));
     }
 }
