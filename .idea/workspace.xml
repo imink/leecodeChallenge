@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38315eb3-17cb-43c6-8dfe-e2c7811e82f1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/out/production/lintcode_jiuzhang/MinimumWindowSubstring.class" afterPath="$PROJECT_DIR$/lintcode/out/production/lintcode_jiuzhang/MinimumWindowSubstring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/lintcode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/BinaryTreeInorderTraversal.java" afterPath="$PROJECT_DIR$/lintcode/src/BinaryTreeInorderTraversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/CopyListwithRandomPointer.java" afterPath="$PROJECT_DIR$/lintcode/src/CopyListwithRandomPointer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/ImplementStrStr.java" afterPath="$PROJECT_DIR$/lintcode/src/ImplementStrStr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/LongestSubstringWithoutRepeatingCharacters.java" afterPath="$PROJECT_DIR$/lintcode/src/LongestSubstringWithoutRepeatingCharacters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/MergeIntervals.java" afterPath="$PROJECT_DIR$/lintcode/src/MergeIntervals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/MinimumWindowSubstring.java" afterPath="$PROJECT_DIR$/lintcode/src/MinimumWindowSubstring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/SortColors.java" afterPath="$PROJECT_DIR$/lintcode/src/SortColors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/base/ListNode.java" afterPath="$PROJECT_DIR$/lintcode/src/base/ListNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/InsertSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/InsertSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/MergeSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/MergeSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/QuickSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/SelectionSort.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/SelectionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lintcode/src/sorting/Test.java" afterPath="$PROJECT_DIR$/lintcode/src/sorting/Test.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/others/untitled/src/ConvertToList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/others/untitled/untitled.iml" afterPath="" />
     </list>
     <ignored path="leetcodeChallenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,6 +105,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -539,16 +524,16 @@
       <option name="presentableId" value="Default" />
       <updated>1482944656508</updated>
       <workItem from="1482944657788" duration="627000" />
-      <workItem from="1488294302861" duration="4340000" />
+      <workItem from="1488294302861" duration="4348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4967000" />
+    <option name="totallyTimeSpent" value="4975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="0" width="1360" height="896" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
