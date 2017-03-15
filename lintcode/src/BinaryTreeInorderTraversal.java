@@ -45,66 +45,7 @@ public class BinaryTreeInorderTraversal {
     }
 
 
-    // pre order 前序遍历 top->down, left->right
-    public void preOrder(TreeNode node) {
-        if (node !=null) {
-            res.add(node.val);
-            preOrder(node.left);
-            preOrder(node.right);
-        }
-    }
 
-    public void preOrderItr(TreeNode node) {
-        Stack<TreeNode> stack = new Stack<>();
-        while (!stack.isEmpty() || node != null) {
-            while (node != null) {
-                stack.push(node);
-                res.add(node.val);
-                node = node.left;
-            }
-            if (!stack.isEmpty()) {
-                TreeNode curNode = stack.pop();
-                node = curNode.right;
-            }
-
-        }
-    }
-
-
-
-    // post order 后序遍历 from root to top, from left to right
-    public void postOrder(TreeNode node) {
-        if (node != null) {
-            postOrder(node.left);
-            postOrder(node.right);
-            res.add(node.val);
-        }
-    }
-
-    public void postOrderItr(TreeNode node) {
-        Stack<TreeNode> stack = new Stack<TreeNode>();
-        stack.push(node);
-
-        while(!stack.isEmpty()) {
-            TreeNode temp = stack.peek();
-            if(temp.left==null && temp.right==null) {
-                TreeNode pop = stack.pop();
-                res.add(pop.val);
-            }
-            else {
-                if(temp.right!=null) {
-                    stack.push(temp.right);
-                    temp.right = null;
-                }
-
-                if(temp.left!=null) {
-                    stack.push(temp.left);
-                    temp.left = null;
-                }
-            }
-        }
-
-    }
 
     public void postOrderItrII(TreeNode node) {
         Stack<TreeNode> stack = new Stack<>();
@@ -127,25 +68,7 @@ public class BinaryTreeInorderTraversal {
         }
     }
 
-    // get nodes number in a tree levelOrderTraversal
-    public int getNodesNumRecur(TreeNode node) {
-        if (node == null) return 0;
-        return getNodesNumRecur(node.left) + getNodesNumRecur(node.right) + 1;
-    }
 
-    public int getNodesNumItr(TreeNode node) {
-        if (node == null) return 0;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(node);
-        int counter  = 0;
-        while (!queue.isEmpty()) {
-            TreeNode curNode = queue.poll();
-            if (curNode.left != null) queue.offer(curNode.left);
-            if (curNode.right != null) queue.offer(curNode.right);
-            counter ++;
-        }
-        return counter;
-    }
 
 
 
