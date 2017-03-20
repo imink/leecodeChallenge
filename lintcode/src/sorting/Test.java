@@ -15,8 +15,9 @@ public class Test {
         ms.divide(0, input.length - 1);
         InsertSort is = new InsertSort();
 //        quickSort.quickSort(0, quickSort.array.length - 1);
+        quickSort.array = input;
         quickSort.quikSortItr();
         ShellSort ss = new ShellSort();
-        System.out.println(Arrays.toString(ss.ShellSort(input)));
+        System.out.println(Arrays.toString(quickSort.array));
     }
 }

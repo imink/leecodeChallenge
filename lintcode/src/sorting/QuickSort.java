@@ -18,6 +18,7 @@ public class QuickSort {
             while (array[right] >= pivot && left < right) right--;
             swap(left, right);
         }
+        // TODO: 16/03/2017 why if here?
         if (array[left] >= pivot) {
             swap(left, end);
         } else {
@@ -34,9 +35,10 @@ public class QuickSort {
         int right = end;
         while (left < right) {
             while (array[left] <= pivot && left < right) left++;
-            array[right] = array[left];
+//            array[right] = array[left];
             while (array[right] >= pivot && left < right) right--;
-            array[left] = array[right];
+//            array[left] = array[right];
+            swap(left, right);
         }
         array[left] = pivot;
         return left;

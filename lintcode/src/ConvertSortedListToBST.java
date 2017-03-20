@@ -3,7 +3,6 @@
  */
 import base.TreeNode;
 import base.ListNode;
-
 public class ConvertSortedListToBST {
 
     public TreeNode sortedListToBST(ListNode head) {
